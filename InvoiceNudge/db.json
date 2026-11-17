@@ -1,0 +1,25 @@
+{
+  "invoices": [
+    {
+      "id": "1",
+      "client": "Savanna Roasters",
+      "service": "Landing Page",
+      "amount": 450,
+      "status": "Sent"
+    },
+    {
+      "id": "2",
+      "client": "Kibo Logistics",
+      "service": "Dashboard UI",
+      "amount": 800,
+      "status": "Overdue"
+    },
+    {
+      "id": "3",
+      "client": "Amani Studio",
+      "service": "Logo Design",
+      "amount": 350,
+      "status": "Paid"
+    }
+  ]
+}
