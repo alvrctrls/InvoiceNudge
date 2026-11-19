@@ -1,13 +1,24 @@
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
 
 function Navbar() {
+  const links = ["home", "board", "add"];
   return (
     <nav className="navbar">
       <h1>InvoiceNudge</h1>
-      <div>
-        <Link to="/">Board</Link>
-        <Link to="/add">+ Add Invoice</Link>
+
+      <div className="nav-links">
+        {links.map((link) => (
+          <NavLink
+            key={link}
+            to={link === "home" ? "/" : `/${link}`}
+            className={({ isActive }) => isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            {link}
+          </NavLink>
+        ))}
       </div>
     </nav>
   );
