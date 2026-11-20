@@ -13,7 +13,7 @@ function InvoiceForm({onAddInvoice}) {
             const newInvoice = {
                 client,
                 service,
-                amount: Number(amount),//wrapped to not give string
+                amount: Number(amount),//wrapped to not give string addition
                 status,
         };
          onAddInvoice(newInvoice);

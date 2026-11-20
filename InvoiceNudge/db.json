@@ -1,26 +1,4 @@
 {
-  "invoices": [
-    {
-      "id": "2",
-      "client": "Kibo Logistics",
-      "service": "Dashboard UI",
-      "amount": 800,
-      "status": "Paid"
-    },
-    {
-      "client": "Mtito Andei",
-      "service": "Sells mops",
-      "amount": 50,
-      "status": "Sent",
-      "id": "W_hkC9nbutw"
-    },
-    {
-      "client": "Felix Nmecha",
-      "service": "sells footballs",
-      "amount": 150,
-      "status": "Paid",
-      "id": "vvQIb_MGaQ8"
-    }
-  ],
+  "invoices": [],
   "$schema": "./node_modules/json-server/schema.json"
 }
